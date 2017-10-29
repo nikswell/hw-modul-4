@@ -1,0 +1,149 @@
+body {
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: rgb(38, 53, 85);
+  padding: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/images/background1.jpg);
+  background-size: cover;
+  font-size: 18px;
+}
+
+.wrapper {
+  width: 1025px;
+  margin: auto;
+  padding: 120px 100px;
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper-blocks {
+  margin: auto;
+  padding: 0;
+  /*   border: 2px solid; */
+}
+
+.block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content {
+  margin: 0px 50px 0px 0px;
+  /*   background: #aa2222; */
+  width: 750px;
+  /*   border: 2px solid; */
+}
+
+.aside {
+  /*   background: #22aa22; */
+  padding: 0;
+  width: 210px;
+  /*   border: 2px solid; */
+}
+.line {
+  border-bottom: 1px solid grey;
+}
+
+img {
+  float: left;
+  margin: 5px 10px 10px 0px;
+  padding: 0px 20px 5px 0px;
+}
+
+.block-menu {
+  counter-reset: list;
+  padding: 0;
+}
+
+ol {
+  list-style: none;
+}
+
+li.ol {
+  font-size: 22px;
+}
+
+li.ol:before {
+  counter-increment: list;
+  content: counter(list);
+  display: inline-block;
+  background-color: #38afe5;
+  color: #FFFFFF;
+  border-radius: 8pt;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  margin: 0px 10px 0px 0px;
+  text-align: center;
+}
+.ol-li {
+  padding: 1px 10px 0px 35px;
+ font-size: 18px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  margin: 0px 0px 10px 0px;
+}
+
+p {
+  margin: 0px 0px 20px 0px;
+  color: rgb(0, 0, 0);
+  padding: 0px 0px 5px 0px;
+}
+
+.wrp-block {
+  /*   border:1px solid red; */
+  border-radius: 4pt;
+  width: 748px;
+  border-radius: 4pt;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+ul {
+  list-style: none;
+  columns: 2;
+  column-width: 50%;
+  margin: 0px 200px 0px 0px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+li.ul {
+  padding: 0 0 20px;
+}
+
+a:before {
+  content: "→";
+  color: #38afe5;
+  margin: 0px 10px 0px 0px;
+}
+
+.wrp-block a {
+  text-decoration: none;
+  color: rgb(38, 53, 85);
+}
+
+.image {
+  position: relative;
+  width: 100%;
+}
+
+b {
+  position: absolute;
+  left: 0;
+  padding: 30px;
+}
+
+.autor {
+  text-align: center;
+}
